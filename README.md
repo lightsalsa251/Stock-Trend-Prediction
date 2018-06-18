@@ -1,9 +1,10 @@
 # Stock-Trend-Prediction
 Predict the stock price trend of Google for the next one month. The data was downloaded from Yahoo Finance. It contains stock prices of google for the last 5 years. Stacked LSTM architecture is used for predictive modelling.
 ## But what in the world is LSTM?
-Long Short Term Memory networks aka LSTMs are a special kind of RNN, capable of learning long term dependencies. They are designed to avoid vanishing and exploding gradient problem that RNN faces for long term dependencies. LSTMs provide a highway for the gradient to propagate backwards.\
+Long Short Term Memory networks aka LSTMs are a special kind of RNN, capable of learning long term dependencies. They are designed to avoid vanishing and exploding gradient problem that RNN faces for long term dependencies. LSTMs provide a highway for the gradient to propagate backwards.
 ![Cell](http://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-chain.png)
-Each cell has
+\
+### Each cell has
 * c(t) - Cell state vector
 * x(t) - Input vector
 * Forget Gate Layer - Looks at h(t-1) and x(t) to output what amount of information to throw away
