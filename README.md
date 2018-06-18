@@ -11,7 +11,7 @@ Long Short Term Memory networks aka LSTMs are a special kind of RNN, capable of 
 * Cell State Vector - Creates a vector of candidate values
 * Output Gate Layer - Decides which parts of the cell state to output
 * Output Vector(h(t)) - Some part of cell state in the range of -1 to +1 is the output
-## Working
+### Working
 1. The forget gate ouputs values
 2. Input gate outputs values that is multiplied by the cell state vector to create an update
 3. Multiply previous cell state with the output of forget gate
